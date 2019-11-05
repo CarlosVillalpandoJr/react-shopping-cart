@@ -123,23 +123,23 @@ const { products, addItem } = useContext(ProductContext);
 
 **STEP 5 - Providing data with CartContext**
 
-- Let's go ahead and bring our newly created `CartContext` into our `App.js` and wrap all of our components inside of our `CartContext.Provider`. Make sure our `ProductContext.Provider` is still the root provider.
+<!-- - Let's go ahead and bring our newly created `CartContext` into our `App.js` and wrap all of our components inside of our `CartContext.Provider`. Make sure our `ProductContext.Provider` is still the root provider. -->
 
-- Now pass a value prop to our `CartContext.Provider`, this value prop is going to contain our `cart` state.
+<!-- - Now pass a value prop to our `CartContext.Provider`, this value prop is going to contain our `cart` state. -->
 
-- Now that we're providing our cart data, we can start to refactor our `Navigation` and `ShoppingCart` components.
+<!-- - Now that we're providing our cart data, we can start to refactor our `Navigation` and `ShoppingCart` components. -->
 
-- Let's start with our `ShoppingCart` component first. Go ahead and refactor the `ShoppingCart` route to no longer use render props. This will throw us an error, but we'll be able to resolve it quickly.
+<!-- - Let's start with our `ShoppingCart` component first. Go ahead and refactor the `ShoppingCart` route to no longer use render props. This will throw us an error, but we'll be able to resolve it quickly. -->
 
-- While were at it let's go ahead and remove the props from our navigation as well.
+<!-- - While were at it let's go ahead and remove the props from our navigation as well. -->
 
 **STEP 7 - The final stretch**
 
-- Our cart data is now being provided to us from our `CartContext` time to consume it!
+<!-- - Our cart data is now being provided to us from our `CartContext` time to consume it! -->
 
-- First, let's head to our `ShoppingCart` component and import the `useContext` hook and our `CartContext`.
+<!-- - First, let's head to our `ShoppingCart` component and import the `useContext` hook and our `CartContext`. -->
 
-- Now in the component, pass `CartContext` to the `useContext` hook and assign it to a variable named cart.
+<!-- - Now in the component, pass `CartContext` to the `useContext` hook and assign it to a variable named cart. -->
 
 - Inside of our component we now need to remove all instances of props.
 
